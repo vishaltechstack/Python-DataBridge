@@ -1,0 +1,14 @@
+MongoDB is a popular NoSQL database that stores data in flexible, JSON-like documents (called BSON internally). Unlike traditional SQL databases with rigid tables and schemas, MongoDB allows you to store unstructured or semi-structured data easily, making it great for applications like web apps, real-time analytics, or handling varying data formats.
+To interact with MongoDB from Python, we use PyMongo, the official Python driver maintained by MongoDB. It's simple, powerful, and the recommended way to perform CRUD (Create, Read, Update, Delete) operations.
+
+Step 1: Install PyMongo
+First, ensure you have MongoDB running (either locally or on a cloud service like MongoDB Atlas – free tier available).
+Install PyMongo using pip:
+--------------------------
+pip install pymongo
+--------------------------
+
+For connections to MongoDB Atlas (which uses SRV), you might need extras:
+---------------------------
+pip install "pymongo[srv]"
+---------------------------
