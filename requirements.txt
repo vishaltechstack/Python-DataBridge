@@ -1,0 +1,6 @@
+mysql-connector-python
+pyodbc
+pymongo
+python-dotenv
+azure-identity
+azure-mgmt-sql
