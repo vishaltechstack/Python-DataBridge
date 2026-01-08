@@ -45,32 +45,6 @@ This project is ideal for learning, interviews, freelancing, and reference in pr
 - Easy to extend for additional databases and cloud services
 
 ---
-Python-DataBridge/
-│
-├── mysql/
-│ ├── connection.py
-│ ├── crud_operations.py
-│
-├── sql_server/
-│ ├── connection.py
-│ ├── queries.py
-│
-├── mongodb/
-│ ├── mongo_connection.py
-│ ├── operations.py
-│
-├── azure/
-│ ├── azure_sql_connection.py
-│
-├── config/
-│ ├── db_config_example.py
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-
-
----
 
 ## Installation
 
@@ -80,21 +54,21 @@ git clone https://github.com/your-username/Python-DataBridge.git
 cd Python-DataBridge
 
 
-## Create a virtual environment:
+Create a virtual environment:
 
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 
 
-## Install dependencies:
+Install dependencies:
 
 pip install -r requirements.txt
 
-## Configuration
+Configuration
 
-- Add database credentials inside the config folder
-- Do not commit real credentials to GitHub
-- Use environment variables or .env files for security
+Add database credentials inside the config folder
+Do not commit real credentials to GitHub
+Use environment variables or .env files for security
 
 Example configuration:
 
@@ -161,10 +135,10 @@ Contributions are welcome. You can add:
 - Performance optimizations
 - Documentation improvements
 
-# Author
+Author
 
-## Vishal Sharma
-### Data Analyst | Python | SQL | Power BI
+Vishal Sharma
+Data Analyst | Python | SQL | Power BI
 
 
 If you want, I can also generate:
@@ -172,5 +146,3 @@ If you want, I can also generate:
 - `.gitignore`
 - Sample connection scripts for each database
 - A short GitHub **About** section for better visibility
-## Project Structure
-
