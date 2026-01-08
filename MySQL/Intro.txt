@@ -1,0 +1,32 @@
+Python can interact with MySQL databases using a database driver (also called a connector or adapter).
+This driver implements the Python Database API Specification (PEP 249), allowing you to execute SQL queries, fetch results, and manage connections in a standardized way.
+
+MySQL itself does not come built-in with Python support, so you need to install a third-party module/driver.
+
+Popular MySQL Drivers for Python
+Here are the most common ones (as of 2026):
+
+    1. MySQL Connector/Python (official from Oracle/MySQL)
+        • Pure Python implementation (no external libraries needed).
+        • Optionally uses a C extension for better performance.
+        • Fully supported by Oracle, compliant with PEP 249.
+        • Best for beginners, official features, and cross-platform ease.
+
+    2. mysqlclient (fork of MySQLdb)
+        • Uses the MySQL C client library — fastest performance.
+        • Requires compilation or system libraries.
+        • Popular in production for speed.
+
+    3. PyMySQL
+        • Pure Python (easy install, no compilation).
+        • Drop-in replacement for MySQLdb in many cases.
+        • Good for async/gevent environments.
+
+For a first introduction, the official MySQL Connector/Python is recommended because it's straightforward, well-documented, and maintained by MySQL's creators.
+
+Installing the Module/Driver
+Use pip to install the official connector:
+
+"pip install mysql-connector-python"
+
+This installs the latest version
